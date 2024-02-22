@@ -71,7 +71,7 @@ class PiSugar(plugins.Plugin):
 
     def on_ui_update(self, ui):
         capacity = int(self.ps.get_battery_percentage().value)
-
+        logging.info("BATT GET VALUE IS : " + str(capacity))
         # new model use battery_power_plugged & battery_allow_charging to detect real charging status
         if self.is_new_model:
             if self.ps.get_battery_power_plugged().value and self.ps.get_battery_allow_charging().value:
