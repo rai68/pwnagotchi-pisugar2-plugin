@@ -2,8 +2,8 @@
 
 ## This plugin DOES require using the official [pisugar-power-manager-rs](https://github.com/PiSugar/pisugar-power-manager-rs) install. 
 
-## Install guide:
-
+# Install guide:
+### Step 1, install PiSugar Manager
 ```bash
 # Go to the home directory
 cd ~
@@ -11,14 +11,14 @@ cd ~
 # Install PiSugar Power Manager 
 curl http://cdn.pisugar.com/release/pisugar-power-manager.sh | sudo bash
 ```
-# Download the support library
+## Download the support library
 
-### Step 1
+### Step 2
 ```bash
 cd ~/
 git clone https://github.com/PiSugar/pisugar2py.git
 ```
-### Step 2
+### Step 3
 make sure to change /!CHANGE ME!/ to your pwnagotchi's python version see below for values
 Jayofelony 64bit use `/python3.11/`
 other is most likely `/python3.7/`
