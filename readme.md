@@ -20,7 +20,9 @@ git clone https://github.com/PiSugar/pisugar2py.git
 ```
 ### Step 3
 make sure to change /!CHANGE ME!/ to your pwnagotchi's python version see below for values
+
 Jayofelony 64bit use `/python3.11/`
+
 other is most likely `/python3.7/`
 ```bash
 sudo cp -r ~/pisugar2py/ /usr/local/lib/!CHANGE ME!/dist-packages/pisugar2
