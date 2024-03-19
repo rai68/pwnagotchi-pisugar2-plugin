@@ -31,7 +31,7 @@ cd ~/
 sudo cp -r ~/pisugar2py/ /usr/local/lib/!CHANGE ME!/dist-packages/pisugar2
 ```
 
-# Installs the user-plugin
+### Step 4 Install plugin
 
 ```bash
 cd ~/
