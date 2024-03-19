@@ -32,7 +32,12 @@ sudo cp -r ~/pisugar2py/ /usr/local/lib/!CHANGE ME!/dist-packages/pisugar2
 ```
 
 # Installs the user-plugin
-sudo cp ~/pwnagotchi-pisugar2-plugin/pisugar2.py /usr/local/share/pwnagotchi/custom-plugins/pisugar2.py
+
+```bash
+cd ~/
+wget https://raw.githubusercontent.com/rai68/pwnagotchi-pisugar2-plugin/master/pisugar2.py
+sudo cp ~/pisugar2.py /usr/local/share/pwnagotchi/custom-plugins/pisugar2.py
+```
 
 In /etc/pwnagotchi/config.toml add:
 ```toml
