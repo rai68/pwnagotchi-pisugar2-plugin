@@ -31,11 +31,8 @@ cd ~/
 sudo cp -r ~/pisugar2py/ /usr/local/lib/!CHANGE ME!/dist-packages/pisugar2
 ```
 
-# This installs the pisugar2 package into your python library
-sudo ln -s ~/pisugar2py/ /usr/local/lib/python3.7/dist-packages/pisugar2
-
 # Installs the user-plugin
-sudo ln -s ~/pwnagotchi-pisugar2-plugin/pisugar2.py /usr/local/share/pwnagotchi/installed-plugins/pisugar2.py
+sudo cp ~/pwnagotchi-pisugar2-plugin/pisugar2.py /usr/local/share/pwnagotchi/custom-plugins/pisugar2.py
 
 In /etc/pwnagotchi/config.toml add:
 ```toml
