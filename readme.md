@@ -23,7 +23,7 @@ make sure to change /!CHANGE ME!/ to your pwnagotchi's python version see below 
 
 Jayofelony 64bit use `/python3.11/`
 
-other is most likely `/python3.7/`
+other is most likely `/python3.9/` or `/python3.7/`
 
 to find your version run `ls /usr/local/lib/ | grep python` you should see `pythonX.X, use the highest value's of X if you get more than 1
 ```bash
