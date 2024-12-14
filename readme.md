@@ -1,6 +1,6 @@
 # Plugin to use with Pwnagotchi and the PiSugar2.
 
-## This plugin DOES require using the official [pisugar-power-manager-rs](https://github.com/PiSugar/pisugar-power-manager-rs) install. 
+## This plugin DOES require using the official [pisugar-power-manager-rs](https://github.com/PiSugar/pisugar-power-manager-rs) install. (Step one)
 
 # Install guide:
 ### Step 1, install PiSugar Manager
