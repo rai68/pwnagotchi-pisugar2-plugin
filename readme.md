@@ -27,7 +27,7 @@ git clone https://github.com/PiSugar/pisugar2py.git
 > cd ~/
 > sudo cp -r ~/pisugar2py/ /opt/.pwn/lib/python3.11/sites-packages/pisugar2
 > ```
-> Done!
+> Done! Proceed to part 4
 >
 make sure to change /!CHANGE ME!/ to your pwnagotchi's python version see below for values
 
