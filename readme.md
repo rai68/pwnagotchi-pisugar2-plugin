@@ -22,7 +22,7 @@ git clone https://github.com/PiSugar/pisugar2py.git
 
 
 > [!WARNING]  
-> On Jayofelony 2.9.2 (32/64bit) all that is required for step is
+> On Jayofelony 2.9.2 (32/64bit) all that is required for step 3 is
 > ```
 > cd ~/
 > sudo cp -r ~/pisugar2py/ /opt/.pwn/lib/python3.11/sites-packages/pisugar2
