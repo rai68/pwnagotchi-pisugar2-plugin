@@ -3,7 +3,7 @@
 ## This plugin DOES require using the official [pisugar-power-manager-rs](https://github.com/PiSugar/pisugar-power-manager-rs) install. (Step one)
 
 # Install guide:
-### Step 1, install PiSugar Manager
+## Step 1, install PiSugar Manager
 ```bash
 # Go to the home directory
 cd ~
@@ -11,14 +11,15 @@ cd ~
 # Install PiSugar Power Manager 
 curl http://cdn.pisugar.com/release/pisugar-power-manager.sh | sudo bash
 ```
-## Download the support library
 
-### Step 2
+
+## Step 2
+### Download the support library
 ```bash
 cd ~/
 git clone https://github.com/PiSugar/pisugar2py.git
 ```
-### Step 3
+## Step 3
 
 
 > [!WARNING]  
@@ -42,7 +43,7 @@ cd ~/
 sudo cp -r ~/pisugar2py/ /usr/local/lib/!CHANGE ME!/dist-packages/pisugar2
 ```
 
-### Step 4 Install plugin
+## Step 4 Install plugin
 
 ```bash
 cd ~/
