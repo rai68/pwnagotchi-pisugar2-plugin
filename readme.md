@@ -21,6 +21,14 @@ git clone https://github.com/PiSugar/pisugar2py.git
 ### Step 3
 make sure to change /!CHANGE ME!/ to your pwnagotchi's python version see below for values
 
+> [!WARNING]  
+> On Jayofelony 2.9.2 all that is required for step is
+> ```
+> cd ~/
+> sudo cp -r ~/pisugar2py/ /opt/.pwn/lib/python3.11/sites-packages/pisugar2
+> ```
+> Done!
+
 Jayofelony 64bit use `/python3.11/`
 
 other is most likely `/python3.9/` or `/python3.7/`
